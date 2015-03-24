@@ -6,13 +6,16 @@ bogobogo
 **NOTE:** For obvious reasons, there isn't a clear document describing how Bogobogosort works. This implementation includes both popular versions with the default being the slower one.
 
 #### Slow (default)
+This version will continue sorting until the heat-death of the universe on any sizable list. It has an average complexity of O(N!1!2!3!...N!) and a worst case of O(∞).
 
 1. Get first `n` (`n` starts at 2) items of list.
 2. Shuffle `n` items (uses Fisher-Yates shuffle).
 3. If `n` items are not sorted, set `n` back to 2. If they are sorted, then `n` increases by one unless `n` already includes the whole array, in which case, the sort is **finished**.
 4. Return to step 1.
 
-#### "Fast"
+#### Fast
+This version is much faster as it will attempt to sort an array segment ∞ times instead of 1. This still yields a worst case of O(∞) but an average complexity which isn't as cool.
+
 1. Get first `n` (`n` starts at 2) items of list.
 2. Shuffle `n` items (uses Fisher-Yates shuffle).
 3. If `n` items are not sorted, return to step 2. 
