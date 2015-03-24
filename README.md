@@ -3,7 +3,7 @@ bogobogo
 
 > Simple implementation of Bogobogosort
 
-**NOTE:** For obvious reasons, there isn't a clear document describing how Bogobogosort works. This implmentation includes both popular versions with the default being the slower one.
+**NOTE:** For obvious reasons, there isn't a clear document describing how Bogobogosort works. This implementation includes both popular versions with the default being the slower one.
 
 #### Slow (default)
 
