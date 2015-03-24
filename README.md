@@ -29,6 +29,8 @@ $ npm install --save bogobogo
 ```
 
 ## Tests
+**Warning:** The tests could theoretically run forever. They likely won't, but it could happen.
+
 ```sh
 $ npm test
 ```
