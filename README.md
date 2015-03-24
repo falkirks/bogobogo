@@ -37,7 +37,7 @@ var bogobogo = require('bogobogo');
 
 bogobogo.create([66, 22, 3, 5, 1, 19]).then(function(result){
 	console.log(result);
-}).start();
+}).standard();
 
 bogobogo.create([6, 111, 44, 1, 5, 23]).then(function(result){
 	console.log(result);
