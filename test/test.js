@@ -3,9 +3,11 @@ var bogobogo = require('../');
 
 describe('Bogobogo', function(){
     describe('#isSorted()', function(){
-        it('should return false when specified array segment is not in ascending order', function(){
-            assert.equal(true, bogobogo.isSorted([1, 5, 10, 55, 323], 0, 4));
+        it('should return false when array segment is not in order', function(){
             assert.equal(false, bogobogo.isSorted([77, 2, 45, 3, 4], 0, 4));
+        });
+        it('should return true when array segment is order', function(){
+            assert.equal(true, bogobogo.isSorted([1, 5, 10, 55, 22], 0, 3));
         });
     });
     describe('#shuffle()', function(){
@@ -41,7 +43,7 @@ describe('SortInstance', function(){
             }).fast();
         });
     });
-    describe('#fast', function(){
+    describe('#then', function(){
         it('should set cb property', function(){
             assert.equal(bogobogo.create([]).then(1).cb, 1);
             assert.equal(bogobogo.create([]).then("Hello").cb, "Hello");
