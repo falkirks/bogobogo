@@ -1,0 +1,36 @@
+{
+  "name": "bogobogo",
+  "version": "0.0.0",
+  "description": "Simple implementation of Bogobogosort",
+  "homepage": "https://github.com/Falkirks/bogobogo",
+  "author": {
+    "name": "Falkirks",
+    "email": "me@falkirks.com",
+    "url": "falkirks.com"
+  },
+  "repository": "Falkirks/bogobogo",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bogobogo",
+    ""
+  ],
+  "dependencies": {
+    "chai": "^2.1.2"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
