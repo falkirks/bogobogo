@@ -18,7 +18,7 @@
     ""
   ],
   "dependencies": {
-    "chai": "^2.1.2"
+
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
