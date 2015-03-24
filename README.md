@@ -6,7 +6,7 @@ bogobogo
 **NOTE:** For obvious reasons, there isn't a clear document describing how Bogobogosort works. This implementation includes both popular versions with the default being the slower one.
 
 #### Slow (default)
-This version will continue sorting until the heat-death of the universe on any sizable list. It has an average complexity of O(N!1!2!3!...N!) and a worst case of O(∞).
+This version will **probably** continue sorting until the heat-death of the universe on any sizable list. It has an average complexity of O(N!1!2!3!...N!) and a worst case of O(∞).
 
 1. Get first `n` (`n` starts at 2) items of list.
 2. Shuffle `n` items (uses Fisher-Yates shuffle).
