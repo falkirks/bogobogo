@@ -25,6 +25,10 @@ bogobogo
 $ npm install --save bogobogo
 ```
 
+## Tests
+```sh
+$ npm test
+```
 
 ## Usage
 
