@@ -5,7 +5,7 @@ bogobogo
 
 1. Get first `n` (`n` starts at 2) items of list.
 2. Shuffle `n` items (uses Fisher-Yates shuffle).
-3. If `n` items are not sorted set `n` back to two.
+3. If `n` items are not sorted set `n` back to 2. If they are sorted, then `n` increases by one unless `n` already includes the whole array, in which case, the sort is **finished**.
 4. Return to step 1.
 
 
