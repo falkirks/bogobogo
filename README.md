@@ -3,6 +3,11 @@ bogobogo
 
 > Simple implementation of Bogobogosort
 
+1. Get first `n` (`n` starts at 2) items of list.
+2. Shuffle `n` items.
+3. If `n` items are not sorted set `n` back to two.
+4. Return to step 1.
+
 
 ## Install
 
