@@ -1,6 +1,6 @@
 {
   "name": "bogobogo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple implementation of Bogobogosort",
   "homepage": "https://github.com/Falkirks/bogobogo",
   "author": {
@@ -15,10 +15,11 @@
   ],
   "keywords": [
     "bogobogo",
-    ""
+    "bogosort",
+    "sorting",
+    "bogobogosort"
   ],
   "dependencies": {
-
   },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
