@@ -47,7 +47,12 @@ SortInstance.prototype.then = function(cb){
 var BogoBogo = function(){
 };
 BogoBogo.prototype.random = function(min, max) {
-    return Math.floor(min+(max-min)*Math.random());
+    /*
+        Math.round() is used instead of Math.floor() to ensure
+        proper randomness. For example, given the range 0 to 1. If
+        floor was only 0 would be produced.
+     */
+    return Math.round(Math.random() * max) + min;
 };
 BogoBogo.prototype.shuffle = function(array, start, end) {
     for(var i = start; i <= end; i++){
